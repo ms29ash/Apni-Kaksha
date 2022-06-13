@@ -3,6 +3,7 @@ import Intro from './Intro'
 import Navbar from './Navbar'
 import Course from './Course'
 import About from './About'
+import Quote from './Quote'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
             <Intro />
             <Course />
             <About />
+            <Quote />
             {/* <Course /> */}
         </>
     )
