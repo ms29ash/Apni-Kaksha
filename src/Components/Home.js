@@ -12,6 +12,7 @@ function Home() {
             <Intro />
             <Course />
             <About />
+            {/* <Course /> */}
         </>
     )
 }
