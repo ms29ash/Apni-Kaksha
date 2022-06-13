@@ -1,10 +1,15 @@
 import React from 'react'
 import tw from "tailwind-styled-components"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
 function CourseCard(props) {
+    AOS.init();
     return (
-        <Container>
+
+        <Container data-aos={`fade-${props.type}`}>
             <Head>{props.title}</Head>
             <Ul>
                 {
@@ -17,12 +22,15 @@ function CourseCard(props) {
             </Ul>
             <Button>Learn More</Button>
         </Container>
+
     )
 }
 
 export default CourseCard
 
-const Container = tw.div` shadow-xl p-12  rounded-xl w-5/12 h-full `
+
+
+const Container = tw.div` shadow-xl p-12  rounded-xl  w-5/12 h-full`
 const Head = tw.h3`text-4xl font-semibold mb-10 px-4 w-full leading-[2.75rem]`
 const Ul = tw.ul``
 const LI = tw.li`text-left text-lg flex justify-start items-baseline pb-3 text-black/80 w-full `
