@@ -5,11 +5,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Intro() {
-    AOS.init({
-        once: true
-    });
+    AOS.init({});
     return (
-        <Container>
+        <Container id="a">
             <Details data-aos="fade-down-right">
                 <Head>Premium <br /> Education for All</Head>
                 <Button>Take a tour<BsPlayCircle /></Button>
