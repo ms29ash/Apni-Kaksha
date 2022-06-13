@@ -1,42 +1,33 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import tw from 'tailwind-styled-components'
-import { BsPlayCircle } from "react-icons/bs";
 
 function About() {
-    const ref = useRef();
     return (
-        <Section ref={ref} onWheel={() => { console.log(ref.current.scrollTop) }}>
-
-
+        <Section>
             <Container>
-                <Img src="https://www.apnikaksha.net/static/media/Aman.dd1c4af0.jpg" alt="" />
-                <Details>
-                    <Head>Aman Dhattarwal</Head>
-                    <Text>
-                        Finances should not be the barrier to premium education for any student. Our mission is not only to create Job seekers but also to produce Job Creators. To achieve this we first need to provide all students with the best quality education irrespective of their economic background.
-                    </Text>
-                    <Button>
-                        Know more about me<Icon /></Button>
+                <Wrapper>
+                    <Head>Download the Apni Kaksha App from Playstore.
+                    </Head>
+                    <SubHead>The all-new Apni Kaksha Application is here! The one-stop solution for all your learning needs. Forget about Netflix and binge watch all our premium lectures, right there on your phone screens. From Physics, Chemistry and Maths, to English and SST, we've got you covered.
 
-                    <Scroll   >hello</Scroll>
-                </Details>
+                    </SubHead>
+                </Wrapper>
+                <Box>
+
+                    <Img src="./images/iPhone.46b7bee3.png" alt="" />
+                </Box>
             </Container>
+
         </Section>
     )
 }
 
 export default About
 
-const Section = tw.div`bg-purple-blue-light p-32 `
-const Container = tw.div`flex items-center`
-
-const Img = tw.img`w-7/12`
-const Details = tw.div`px-12`
-
-const Head = tw.h1`font-semibold text-4xl my-3`
-const Text = tw.p``
-const Button = tw.button`text-payment-purple border-payment-purple border-2 py-4 px-2 rounded-xl flex items-center mt-6 hover:underline transition-transform hover:scale-105	`
-
-const Icon = tw(BsPlayCircle)`text-payment-purple text-xl ml-3 `
-
-const Scroll = tw.div``
+const Section = tw.section`bg-white min-h-screen p-32`
+const Container = tw.div`bg-cream flex rounded-xl  p-24`
+const Wrapper = tw.div`mx-12 items-baseline px-10 w-6/12`
+const Box = tw.div`w-6/12`
+const Head = tw.h1`text-4xl font-semibold leading-6`
+const SubHead = tw.p`text-2xl text-black/80 mt-6`
+const Img = tw.img`w-8/12 object-cover`
