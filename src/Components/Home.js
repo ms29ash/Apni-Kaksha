@@ -6,6 +6,7 @@ import Founder from './Founder'
 import Quote from './Quote'
 import Channels from './Channels'
 import About from './About'
+import Data from './Data'
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
             <Quote />
             <Channels />
             <About />
+            <Data />
             {/* <Course /> */}
         </>
     )
