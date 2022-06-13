@@ -1,15 +1,20 @@
 import React from 'react'
 import tw from 'tailwind-styled-components'
 import { BsPlayCircle } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Intro() {
+    AOS.init({
+        once: true
+    });
     return (
         <Container>
-            <Details>
+            <Details data-aos="fade-down-right">
                 <Head>Premium <br /> Education for All</Head>
                 <Button>Take a tour<BsPlayCircle /></Button>
             </Details>
-            <Wrapper>
+            <Wrapper data-aos="fade-down-left">
                 <Img src="/images/IntroSection.svg" alt="" />
             </Wrapper>
         </Container>
