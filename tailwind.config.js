@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         'payment-purple': '#2c2c96',
         "purple-blue-light": "#f3f3ff",
-
+        "cream": "#feeae5",
         "blue-light": "#d5f3ff",
       }
     },

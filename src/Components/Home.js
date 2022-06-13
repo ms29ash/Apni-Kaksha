@@ -2,8 +2,10 @@ import React from 'react'
 import Intro from './Intro'
 import Navbar from './Navbar'
 import Course from './Course'
-import About from './About'
+import Founder from './Founder'
 import Quote from './Quote'
+import Channels from './Channels'
+import About from './About'
 
 
 function Home() {
@@ -12,8 +14,10 @@ function Home() {
             <Navbar />
             <Intro />
             <Course />
-            <About />
+            <Founder />
             <Quote />
+            <Channels />
+            <About />
             {/* <Course /> */}
         </>
     )
