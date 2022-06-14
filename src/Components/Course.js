@@ -30,4 +30,4 @@ function Course() {
 export default Course
 
 const Section = tw.section`px-32 w-screen my-12`
-const Container = tw.div`flex flex-wrap justify-center gap-x-3 gap-y-8  w-full`
+const Container = tw.div`flex flex-wrap justify-center gap-x-3 gap-y-8  w-full `
