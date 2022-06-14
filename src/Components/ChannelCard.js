@@ -1,21 +1,23 @@
 import React from 'react'
 import tw from 'tailwind-styled-components'
+import { BsArrowRight } from "react-icons/bs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function ChannelCard() {
+function ChannelCard(props) {
+    const { name, img, type, subscriber } = props.item || {};
     AOS.init({});
     return (
         <Container data-aos="zoom-in">
-            <Img src="https://yt3.ggpht.com/dc49OETH4DW-1PYe1MLjHCI9bWcXX6KnLmGiLwNQR7-vqRIUTndJCmVyTTHTg4thRFNXvoxp" alt="" />
+            <Img src={`./images/${img}`} alt="" />
             <Wrapper>
-                <Head>Aman Dhattarwal</Head>
+                <Head>{name}</Head>
                 <SubHead>
-                    <Text>4.0M Subscriber</Text>
-                    <Button>Visit</Button>
+                    <Text>{subscriber} Subscriber</Text>
+                    <Button>Visit<Icon src="https://www.apnikaksha.net/static/media/ArrowLineUpRightColor.22ef1557.svg" /></Button>
                 </SubHead>
             </Wrapper>
-            <Tag>Main Channel</Tag>
+            <Tag>{type}</Tag>
 
         </Container>
     )
@@ -23,12 +25,13 @@ function ChannelCard() {
 
 export default ChannelCard
 
-const Container = tw.div`h-full bg-white px-6 py-3 rounded-xl mx-20 my-10`
+const Container = tw.div`h-full  bg-white px-6 py-3 rounded-xl mx-20 my-10`
 
 const Img = tw.img`h-[60%] object-cover`
 const Wrapper = tw.div`p-4`
 const Head = tw.h1`text-4xl font-semibold`
 const SubHead = tw.div`flex items-center justify-between `
-const Text = tw.p``
-const Button = tw.button` border-payment-purple border-2 px-4 py-2 rounded-lg text-payment-purple hover:underline`
+const Text = tw.p`text-black/60`
+const Button = tw.button` border-payment-purple border-2 px-4 py-2 rounded-lg text-payment-purple hover:underline flex items-center hover:scale-105 transition-all`
+const Icon = tw.img``
 const Tag = tw.span` bg-payment-purple text-white px-6 py-3 rounded-tr-lg rounded-bl-lg absolute top-0 right-0`
