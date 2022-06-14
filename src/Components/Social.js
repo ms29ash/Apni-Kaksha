@@ -2,10 +2,14 @@ import React from 'react'
 import tw from 'tailwind-styled-components'
 import { AiOutlineInstagram, AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Social() {
+    AOS.init();
+
     return (
-        <Container>
+        <Container data-aos="fade-right" data-aos-delay="350">
             <Icon>
 
                 <AiOutlineInstagram />
