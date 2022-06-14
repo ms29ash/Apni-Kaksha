@@ -7,8 +7,8 @@ function Data() {
         <Section>
             <Container>
 
-                <DataSection />
-                <DataSection />
+                <DataSection subscriber={[7, 7, 8, 6, 7, 0, 0]} />
+                <DataSection subscriber={[6, 8, 6, 5, 3, 9, 8, 7, 4]} />
             </Container>
         </Section>
     )
