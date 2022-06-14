@@ -8,12 +8,14 @@ import Channels from './Channels'
 import About from './About'
 import Data from './Data'
 import Footer from './Footer'
+import Social from './Social'
 
 
 function Home() {
     return (
         <>
             <Navbar />
+            <Social />
             <Intro />
             <Course />
             <Founder />
