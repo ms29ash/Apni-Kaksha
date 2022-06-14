@@ -6,3 +6,25 @@
 .quote {
     border-radius: 500px/300px;
 }
+.option:hover .arrow {
+    transform: rotate(180deg);
+}
+.bubble::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-right: 18px solid transparent;
+    border-bottom: 13px solid #fff;
+    border-left: 13px solid transparent;
+}
+.drop-down:hover > .drop-down-content {
+    display: block;
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+    left: 6%;
+}
