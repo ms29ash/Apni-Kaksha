@@ -468,6 +468,10 @@ video {
 .left-0 {
   left: 0px;
 }
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -479,6 +483,30 @@ video {
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 .my-3 {
   margin-top: 0.75rem;
@@ -492,14 +520,17 @@ video {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 .mt-16 {
   margin-top: 4rem;
 }
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 .ml-3 {
   margin-left: 0.75rem;
@@ -525,11 +556,17 @@ video {
 .h-\[60\%\] {
   height: 60%;
 }
+.h-\[70vh\] {
+  height: 70vh;
+}
 .h-screen {
   height: 100vh;
 }
 .h-16 {
   height: 4rem;
+}
+.max-h-\[300px\] {
+  max-height: 300px;
 }
 .max-h-\[500px\] {
   max-height: 500px;
@@ -537,11 +574,17 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
-.w-full {
-  width: 100%;
+.w-6\/12 {
+  width: 50%;
+}
+.w-8\/12 {
+  width: 66.666667%;
 }
 .w-screen {
   width: 100vw;
+}
+.w-full {
+  width: 100%;
 }
 .w-5\/12 {
   width: 41.666667%;
@@ -551,6 +594,9 @@ video {
 }
 .w-10\/12 {
   width: 83.333333%;
+}
+.w-\[200px\] {
+  width: 200px;
 }
 .w-7\/12 {
   width: 58.333333%;
@@ -569,6 +615,9 @@ video {
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.list-none {
+  list-style-type: none;
 }
 .flex-col {
   flex-direction: column;
@@ -656,6 +705,22 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(213 243 255 / var(--tw-bg-opacity));
 }
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+.bg-black-footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 13 23 / var(--tw-bg-opacity));
+}
+.bg-footer-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 38 53 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-purple-blue-light {
   --tw-bg-opacity: 1;
   background-color: rgb(243 243 255 / var(--tw-bg-opacity));
@@ -663,14 +728,27 @@ video {
 .object-cover {
   object-fit: cover;
 }
+.p-32 {
+  padding: 8rem;
+}
+.p-24 {
+  padding: 6rem;
+}
 .p-4 {
   padding: 1rem;
 }
 .p-12 {
   padding: 3rem;
 }
-.p-32 {
-  padding: 8rem;
+.p-6 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -700,6 +778,14 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -719,6 +805,12 @@ video {
 .pb-3 {
   padding-bottom: 0.75rem;
 }
+.pt-20 {
+  padding-top: 5rem;
+}
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -728,6 +820,10 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-5xl {
   font-size: 3rem;
@@ -741,6 +837,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -751,8 +851,14 @@ video {
 .font-semibold {
   font-weight: 600;
 }
+.leading-6 {
+  line-height: 1.5rem;
+}
 .leading-\[2\.75rem\] {
   line-height: 2.75rem;
+}
+.text-black\/80 {
+  color: rgb(0 0 0 / 0.8);
 }
 .text-payment-purple {
   --tw-text-opacity: 1;
@@ -761,9 +867,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-black\/80 {
-  color: rgb(0 0 0 / 0.8);
 }
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);

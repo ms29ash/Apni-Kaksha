@@ -7,6 +7,7 @@ import Quote from './Quote'
 import Channels from './Channels'
 import About from './About'
 import Data from './Data'
+import Footer from './Footer'
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
             <Channels />
             <About />
             <Data />
+            <Footer />
             {/* <Course /> */}
         </>
     )
