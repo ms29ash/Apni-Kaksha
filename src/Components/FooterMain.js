@@ -22,5 +22,5 @@ export default FooterMain
 
 const Main = tw.div`bg-footer-blue px-16 pt-20 pb-6 w-full`
 const Container = tw.div`flex flex-col w-full items-center `
-const Img = tw.img`w-[200px] `
-const Wrapper = tw.div`flex items-center w-full justify-between`
+const Img = tw.img`w-[200px] cursor-pointer `
+const Wrapper = tw.div`flex items-center w-full justify-between pl-5`

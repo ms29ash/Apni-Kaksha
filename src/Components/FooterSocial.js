@@ -31,4 +31,4 @@ function FooterSocial() {
 export default FooterSocial
 
 const Container = tw.div`flex p-6`
-const Icon = tw.div`text-4xl text-white bg-black mx-5 p-2 rounded-full`
+const Icon = tw.div`text-4xl text-white bg-black mx-5 p-2 rounded-full cursor-pointer`
