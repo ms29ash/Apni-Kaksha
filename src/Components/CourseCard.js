@@ -30,7 +30,7 @@ export default CourseCard
 
 
 
-const Container = tw.div` shadow-xl p-12 mt-16  rounded-xl  w-5/12 h-[110vh]`
+const Container = tw.div` shadow-xl p-12 mt-16  rounded-xl  xl:w-5/12 h-[110vh] w-full max-h-[900px]`
 const Head = tw.h3`text-4xl font-semibold mb-10 px-4 w-full leading-[2.75rem]`
 const Ul = tw.ul``
 const LI = tw.li`text-left text-lg flex justify-start items-baseline pb-3 text-black/80 w-full `

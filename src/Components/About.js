@@ -24,10 +24,10 @@ function About() {
 
 export default About
 
-const Section = tw.section`bg-white min-h-screen p-32`
-const Container = tw.div`bg-cream flex rounded-xl  p-24`
-const Wrapper = tw.div`mx-12 items-baseline px-10 w-6/12`
-const Box = tw.div`w-6/12`
+const Section = tw.section`bg-white min-h-screen py-32`
+const Container = tw.div`bg-cream flex flex-col xl:flex-row rounded-xl  xl:p-24 p-16 justify-center`
+const Wrapper = tw.div`xl:mx-12 items-baseline px-10 xl:w-6/12 w-full`
+const Box = tw.div`xl:w-6/12 w-full`
 const Head = tw.h1`text-4xl font-semibold leading-8`
 const SubHead = tw.p`text-2xl text-black/80 mt-6`
-const Img = tw.img`w-8/12 object-cover`
+const Img = tw.img`xl:w-8/12 object-cover w-full`

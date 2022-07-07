@@ -35,4 +35,4 @@ function FooterOptions() {
 
 export default FooterOptions;
 
-const Container = tw.div`flex w-8/12`;
+const Container = tw.div`flex flex-col xl:flex-row w-full  xl:w-8/12`;

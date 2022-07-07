@@ -9,15 +9,18 @@ import About from './About'
 import Data from './Data'
 import Footer from './Footer'
 import Social from './Social'
+import tw from 'tailwind-styled-components'
 import NavbarMenu from './NavbarMenu'
 
 
 function Home() {
     return (
         <>
-            <Social />
-            <Intro />
-            <Course />
+            <Container>
+                <Social />
+                <Intro />
+                <Course />
+            </Container>
             <Founder />
             <Quote />
             <Channels />
@@ -30,3 +33,5 @@ function Home() {
 }
 
 export default Home
+
+const Container = tw.div`xl:px-32 px-6`

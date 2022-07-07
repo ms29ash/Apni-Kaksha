@@ -18,7 +18,7 @@ function Founder() {
                     <Button>
                         Know more about me<Icon /></Button>
 
-                    <Scroll   >hello</Scroll>
+                    {/* <Scroll   >hello</Scroll> */}
                 </Details>
             </Container>
         </Section>
@@ -27,11 +27,11 @@ function Founder() {
 
 export default Founder
 
-const Section = tw.div`bg-purple-blue-light p-32 `
-const Container = tw.div`flex items-center`
+const Section = tw.div`bg-purple-blue-light xl:p-32 p-12`
+const Container = tw.div`flex items-center flex-col-reverse	 xl:flex-row`
 
-const Img = tw.img`w-7/12`
-const Details = tw.div`px-12`
+const Img = tw.img`xl:w-7/12 w-full my-16 xl:my-4`
+const Details = tw.div`px-12 flex flex-col items-center xl:items-start`
 
 const Head = tw.h1`font-semibold text-4xl my-3`
 const Text = tw.p``

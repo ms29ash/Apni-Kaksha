@@ -21,8 +21,8 @@ function Intro() {
 
 export default Intro
 
-const Container = tw.div`flex items-center w-screen px-32 justify-center h-screen`
-const Details = tw.div`h-screen w-[50%] flex justify-center items-start flex-col p-6`
+const Container = tw.div`flex items-center max-w-screen   justify-center h-screen`
+const Details = tw.div` flex-1 h-screen w-[100%] flex justify-center items-start flex-col p-6`
 const Head = tw.h1`text-6xl whitespace-normal	font-semibold`
 const Button = tw.a` cursor-pointer flex items-center border-payment-purple border-2 rounded-md px-5 text-payment-purple text-lg my-4 py-4 hover:underline transition-all hover:scale-105 mt-16`
 const Icon = tw(BsPlayCircle)`ml-2 text-xl`
