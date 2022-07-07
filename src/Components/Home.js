@@ -9,12 +9,12 @@ import About from './About'
 import Data from './Data'
 import Footer from './Footer'
 import Social from './Social'
+import NavbarMenu from './NavbarMenu'
 
 
 function Home() {
     return (
         <>
-            <Navbar />
             <Social />
             <Intro />
             <Course />
