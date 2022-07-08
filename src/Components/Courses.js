@@ -66,7 +66,7 @@ export default Courses
 
 const Page = tw.div`bg-purple-blue-light  p-5 xl:px-20 xl:py-16 xl:mb-[100vh] mb-[10vh] `
 const Container = tw.div`flex w-full flex-col xl:items-start items-center xl:flex-row `
-const Wrapper = tw.div`relative px-20  xl:w-1/2 w-full`
+const Wrapper = tw.div`relative xl:px-20 px-2 md:px-8 xl:w-1/2 w-full`
 const Details = tw.div`xl:w-1/2 `
 const Course = tw.div`flex flex-col md:rounded-lg md:shadow-lg justify-items-center  bg-white p-2 md:p-1 md:mx-2 xl:absolute xl:right-0 top-0`
 const Head = tw.h1`text-3xl font-semibold `
