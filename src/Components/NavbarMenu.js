@@ -37,13 +37,13 @@ export default function NavbarMenu(props) {
                         </Li>
                         <Li >Boards
                             <SubDropdown >
-                                <Li>XII</Li>
+                                <LinkTo to="/course/3" >XII</LinkTo>
 
                             </SubDropdown>
                         </Li>
                         <Li>Neet
                             <SubDropdown >
-                                <LinkTo onClick={toggle} to='/course/1'>Inorganic Chemistry</LinkTo>
+                                <LinkTo onClick={toggle} to='/course/4'>Inorganic Chemistry</LinkTo>
 
                             </SubDropdown></Li>
 
@@ -83,6 +83,6 @@ const Dropdown = tw.div`hidden absolute top-14 left-[12%] drop-shadow-xl  bg-whi
 const SubDropdown = tw(Dropdown)` text-black  left-full top-0 absolute drop-down-content`
 const Bubble = tw.div`bubble `
 const Li = tw.div`px-4 py-3 my-2 hover:bg-payment-purple hover:text-white relative drop-down`
-const LinkTo = tw(Link)` block px-4 py-3 my-2 hover:bg-payment-purple hover:text-white relative drop-down `
+const LinkTo = tw(Link)` block px-4 py-3 my-2 hover:bg-yellow-400  relative drop-down `
 
 const HamburgerIcon = tw(Hamburger)` xl:hidden block `

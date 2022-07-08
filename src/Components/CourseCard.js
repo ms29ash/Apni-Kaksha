@@ -15,7 +15,7 @@ function CourseCard(props) {
                 {
                     props.points.map((point, index) => {
 
-                        return <LI><Icon /> <Text>{point}</Text></LI>
+                        return <LI key={index}><Icon /> <Text>{point}</Text></LI>
                     })
                 }
 

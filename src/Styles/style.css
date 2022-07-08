@@ -553,6 +553,9 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
+.mb-\[10vh\] {
+  margin-bottom: 10vh;
+}
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -609,6 +612,9 @@ video {
 }
 .h-\[30vh\] {
   height: 30vh;
+}
+.max-h-\[900px\] {
+  max-height: 900px;
 }
 .max-h-\[700px\] {
   max-height: 700px;
@@ -806,6 +812,10 @@ video {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -837,10 +847,6 @@ video {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -892,16 +898,16 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-.text-xl {
-  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 .text-3xl {
@@ -1003,6 +1009,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(44 44 150 / var(--tw-bg-opacity));
 }
+.hover\:bg-yellow-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1073,6 +1083,10 @@ video {
     margin-bottom: 1rem;
   }
 
+  .xl\:mb-\[100vh\] {
+    margin-bottom: 100vh;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -1121,12 +1135,18 @@ video {
     padding: 6rem;
   }
 
-  .xl\:p-20 {
-    padding: 5rem;
-  }
-
   .xl\:p-32 {
     padding: 8rem;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .xl\:px-32 {
