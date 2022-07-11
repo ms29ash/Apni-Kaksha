@@ -26,5 +26,5 @@ const Details = tw.div` flex-1 h-screen w-[100%] flex justify-center items-start
 const Head = tw.h1`text-6xl whitespace-normal	font-semibold`
 const Button = tw.a` cursor-pointer flex items-center border-payment-purple border-2 rounded-md px-5 text-payment-purple text-lg my-4 py-4 hover:underline transition-all hover:scale-105 mt-16`
 const Icon = tw(BsPlayCircle)`ml-2 text-xl`
-const Wrapper = tw.div``
-const Img = tw.img`h-screen p-4`
+const Wrapper = tw.div`h-full`
+const Img = tw.img`h-full p-4`
