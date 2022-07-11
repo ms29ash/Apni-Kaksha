@@ -24,7 +24,7 @@ function CourseCard(props) {
                     }
 
                 </Ul>
-                <Button>Learn More</Button>
+                <Button href='https://main.apnikaksha.net/' >Learn More</Button>
             </Wrapper>
         </Container>
     )
@@ -32,11 +32,11 @@ function CourseCard(props) {
 
 export default CourseCard
 
-const Container = tw.div` py-[10%] flex xl:w-[45%] w-[90%] m-4  shadow-xl rounded-xl items-center justify-center`
-const Wrapper = tw.div` w-[70%]  `
+const Container = tw.div` py-[10%] flex lg:w-[45%] w-[90%] md:m-4 mx-0 my-4 shadow-xl rounded-xl items-center justify-center`
+const Wrapper = tw.div` md:w-[70%] w-[90%] `
 const Head = tw.h3`lg:text-4xl text-2xl font-semibold mb-10 px-4 w-full leading-[2.75rem]`
 const Ul = tw.ul`flex-[1_0_auto]`
 const LI = tw.li`text-left text-lg flex justify-start items-baseline pb-3 text-black/80 w-full `
 const Icon = tw(BsFillCheckCircleFill)`text-payment-purple text-xl  w-2/12`
 const Text = tw.p`w-10/12`
-const Button = tw.button`border-black/80 w-full rounded-md lg:py-8 py-4  mt-16 border-2 text-payment-purple hover:bg-payment-purple hover:text-white`
+const Button = tw.a` block cursor-pointer border-black/80 w-full rounded-md lg:py-8 py-4  mt-16 border-2 text-payment-purple hover:bg-payment-purple hover:text-white text-center`

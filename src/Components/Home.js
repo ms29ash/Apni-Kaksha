@@ -35,4 +35,4 @@ function Home() {
 
 export default Home
 
-const Container = tw.div`xl:px-32 px-6`
+const Container = tw.div`xl:px-32 px-6 max-w-screen  overflow-x-hidden`

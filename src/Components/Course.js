@@ -31,5 +31,5 @@ function Course() {
 
 export default Course
 
-const Section = tw.section` max-w-screen  lg:my-12 lg:px-16 px-4`
+const Section = tw.section` max-w-screen  lg:my-12 lg:px-16 px-2`
 const Container = tw.div`flex xl:flex-row   justify-center gap-x-3 gap-y-8  w-full h-full flex-wrap`
