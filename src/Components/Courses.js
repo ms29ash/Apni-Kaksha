@@ -8,7 +8,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import axios from '../axios'
 import { useEffect, useState } from 'react';
-import BreadCrump from './BreadCrump';
+import About from './About'
+import Footer from './Footer'
 
 function Courses() {
     const [data, setData] = useState()
@@ -58,13 +59,15 @@ function Courses() {
                     </Container>
                 }
             </Page>
+            <About />
+            <Footer />
         </>
     )
 }
 
 export default Courses
 
-const Page = tw.div`bg-purple-blue-light  p-5 xl:px-20 xl:py-16 xl:mb-[100vh] mb-[10vh] `
+const Page = tw.div`bg-purple-blue-light  p-5 xl:px-20 xl:py-16 xl:mb-[15%]  `
 const Container = tw.div`flex w-full flex-col xl:items-start items-center xl:flex-row `
 const Wrapper = tw.div`relative xl:px-20 px-2 md:px-8 xl:w-1/2 w-full`
 const Details = tw.div`xl:w-1/2 `

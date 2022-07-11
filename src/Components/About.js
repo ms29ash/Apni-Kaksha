@@ -14,7 +14,7 @@ function About() {
                 </Wrapper>
                 <Box>
 
-                    <Img src="./images/iPhone.46b7bee3.png" alt="" />
+                    <Img src="/images/iPhone.46b7bee3.png" alt="" />
                 </Box>
             </Container>
 
