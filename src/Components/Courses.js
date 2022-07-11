@@ -14,7 +14,10 @@ import Footer from './Footer'
 function Courses() {
     const [data, setData] = useState()
 
-    AOS.init({});
+    AOS.init({
+        offset: 120,
+        delay: 20,
+    });
     const getUser = async (id) => {
         try {
             const response = await axios.get(`/course/${id}`);
