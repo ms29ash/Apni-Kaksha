@@ -4,11 +4,13 @@ import './Styles/style.css'
 import { Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Courses from './Components/Courses';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

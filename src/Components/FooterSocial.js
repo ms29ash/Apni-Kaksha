@@ -6,20 +6,20 @@ import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 function FooterSocial() {
     return (
         <Container>
-            <Icon>
+            <Icon href='https://www.instagram.com/dhattarwalaman/' target='_blank' >
 
                 <AiOutlineInstagram />
             </Icon>
-            <Icon>
+            <Icon href='https://www.youtube.com/channel/UCmXZxX_qexEZxhb5_vQKPCw' target='_blank' >
                 <AiFillYoutube />
             </Icon>
-            <Icon>
+            <Icon href='https://twitter.com/amandhattarwal/' target='_blank' >
                 <AiOutlineTwitter />
             </Icon>
-            <Icon>
+            <Icon href='https://www.linkedin.com/in/dhattarwalaman/' target='_blank' >
                 <FaLinkedinIn />
             </Icon>
-            <Icon>
+            <Icon href='https://www.facebook.com/dhattarwalaman' target='_blank' >
                 <FaFacebook />
             </Icon>
 
@@ -31,4 +31,4 @@ function FooterSocial() {
 export default FooterSocial
 
 const Container = tw.div`flex p-6`
-const Icon = tw.div`text-4xl text-white bg-black lg:mx-5 mx-2 p-2 rounded-full cursor-pointer`
+const Icon = tw.a` block text-4xl text-white bg-black lg:mx-5 mx-2 p-2 rounded-full cursor-pointer`
