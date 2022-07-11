@@ -10,7 +10,6 @@ import Data from './Data'
 import Footer from './Footer'
 import Social from './Social'
 import tw from 'tailwind-styled-components'
-import NavbarMenu from './NavbarMenu'
 
 
 function Home() {
@@ -22,12 +21,14 @@ function Home() {
                 <Course />
             </Container>
             <Founder />
+
+
             <Quote />
             <Channels />
             <About />
             <Data />
             <Footer />
-            {/* <Course /> */}
+
         </>
     )
 }
