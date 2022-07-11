@@ -25,9 +25,9 @@ function About() {
 export default About
 
 const Section = tw.section`bg-white min-h-screen py-32`
-const Container = tw.div`bg-cream flex flex-col xl:flex-row rounded-xl  xl:p-24 p-16 justify-center`
+const Container = tw.div`bg-cream flex flex-col xl:flex-row rounded-xl  xl:p-24 lg:p-16 p-6 justify-center`
 const Wrapper = tw.div`xl:mx-12 items-baseline px-10 xl:w-6/12 w-full`
 const Box = tw.div`xl:w-6/12 w-full`
-const Head = tw.h1`text-4xl font-semibold leading-8`
-const SubHead = tw.p`text-2xl text-black/80 mt-6`
+const Head = tw.h1`lg:text-4xl text-3xl font-semibold leading-8`
+const SubHead = tw.p`lg:text-2xl text-xl text-black/80 mt-6`
 const Img = tw.img`xl:w-8/12 object-cover w-full`

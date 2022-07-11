@@ -23,7 +23,7 @@ function Quote() {
 
 export default Quote
 
-const Container = tw.section`  gradient h-screen grid place-items-center`
-const Wrapper = tw.div` max-w-[900px] w-full h-full max-h-[500px] text-center quote bg-white text-5xl items-center justify-center flex relative	`
-const Img = tw.img`absolute top-0 left-0`
+const Container = tw.section`  gradient xl:h-screen h-[80vh] grid place-items-center`
+const Wrapper = tw.div`lg:max-w-[900px] max-w-[500px] w-full h-full lg:max-h-[500px] max-h-[300px] text-center quote bg-white xl:text-5xl text-3xl items-center justify-center flex relative	`
+const Img = tw.img`absolute top-0 left-0 w-[100px]`
 const Head = tw.h1`  text-center`

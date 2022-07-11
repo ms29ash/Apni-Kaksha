@@ -17,6 +17,6 @@ function DataSection(props) {
 
 export default DataSection;
 
-const Container = tw.div`mx-16 my-6 flex flex-col items-center`;
-const Head = tw.h1`text-3xl`;
+const Container = tw.div`mx-16 lg:my-6 my-2 flex flex-col items-center`;
+const Head = tw.h1`lg:text-3xl text-xl`;
 const Wrapper = tw.div`flex my-6`;

@@ -25,11 +25,11 @@ function ChannelCard(props) {
 
 export default ChannelCard
 
-const Container = tw.div`h-full  bg-white px-6 py-3 rounded-xl mx-20 my-10`
+const Container = tw.div`h-full  bg-white lg:px-6 px-2 py-3 rounded-xl lg:mx-20 lg:my-10 my-3 mx-3 `
 
 const Img = tw.img`h-[60%] object-cover`
-const Wrapper = tw.div`p-4`
-const Head = tw.h1`text-4xl font-semibold`
+const Wrapper = tw.div`p-4 `
+const Head = tw.h1`Lg:text-4xl text-3xl font-semibold`
 const SubHead = tw.div`flex items-center justify-between `
 const Text = tw.p`text-black/60`
 const Button = tw.a`cursor-pointer border-payment-purple border-2 px-4 py-2 rounded-lg text-payment-purple hover:underline flex items-center hover:scale-105 transition-all`

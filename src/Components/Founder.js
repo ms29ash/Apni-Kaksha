@@ -27,7 +27,7 @@ function Founder() {
 
 export default Founder
 
-const Section = tw.div`bg-purple-blue-light xl:p-32 p-12`
+const Section = tw.div`bg-purple-blue-light xl:p-32 lg:p-12 p-3`
 const Container = tw.div`flex items-center flex-col-reverse	 xl:flex-row`
 
 const Img = tw.img`xl:w-7/12 w-full my-16 xl:my-4`

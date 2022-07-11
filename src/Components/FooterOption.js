@@ -22,7 +22,7 @@ function FooterOption(props) {
 
 export default FooterOption
 
-const Container = tw.div`flex flex-col items-start justify-start w-full text-white mx-6 mt-6  my-4 xl:my-0`
+const Container = tw.div`flex flex-col items-start justify-start w-full text-white lg:mx-6 mx-2 mt-6  my-4 xl:my-0`
 const Head = tw.h1`text-xl text-left`
 const Wrapper = tw.div`mt-8`
 const Li = tw.li`my-2 list-none cursor-pointer`

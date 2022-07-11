@@ -16,5 +16,5 @@ function Data() {
 
 export default Data
 
-const Section = tw.section`h-[70vh] max-h-[700px]`
+const Section = tw.section`h-[70vh] lg:max-h-[700px] max-h-[300px]`
 const Container = tw.div`flex flex-col xl:flex-row items-center justify-center`
