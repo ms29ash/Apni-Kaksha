@@ -12,7 +12,10 @@ function Navbar() {
     return (
         <>
             <Header>
-                <Img src="https://www.apnikaksha.net/static/media/Logo.40905f46.jpeg" alt="" />
+                <Logo to='/' >
+
+                    <Img src="https://www.apnikaksha.net/static/media/Logo.40905f46.jpeg" alt="" />
+                </Logo>
                 <Container>
                     <Options>
                         <Ul ><Text>Let's Study</Text> <Arrow />
@@ -76,7 +79,8 @@ export default Navbar
 
 const Header = tw.header`flex xl:justify-center px-8 xl:px-40 py-2 w-full  items-center border-payment-purple/20 border-b-[0.5px] justify-between`
 const Container = tw.div`  hidden xl:flex items-center justify-between flex-1`
-const Img = tw.img`w-20 h-20 object-cover mr-10`
+const Logo = tw(Link)`w-20 h-20 mr-10`
+const Img = tw.img`w-full h-full object-cover `
 const Options = tw.div` flex  justify-center items-center flex-wrap ml-4 flex-1`
 const Ul = tw.ul`px-6 flex items-center cursor-pointer py-5 option relative dropdown`
 const Text = tw.p`text-black/80`
